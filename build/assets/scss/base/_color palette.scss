@@ -1,0 +1,22 @@
+//// Color Scheme
+$aa-green: #00A99D;
+$aa-blue: #0071BC;
+$aa-gray: #555555;
+$slate: #333333;
+$graphite: #191919;
+$egg-white: #DFDFDF;
+$white: #FFFFFF;
+
+/// Base Color Palette
+$aa-colors:(
+  'primary': $aa-green,
+  'accent': $aa-blue,
+  'secondary': $aa-gray,
+  'body-text': $slate,
+  'background': $white
+);
+
+/// Color Palette Function
+@function aa-color($key: 'primary') {
+  @return map-get($aa-colors, $key);
+}

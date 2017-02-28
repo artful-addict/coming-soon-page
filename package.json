@@ -1,0 +1,32 @@
+{
+  "name": "artfuladdict_comingsoon",
+  "version": "1.0.0",
+  "description": "landing_page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artful-addict/coming-soon-page.git"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "coming",
+    "soon",
+    "artful",
+    "addict"
+  ],
+  "author": "Kevin Akins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artful-addict/coming-soon-page/issues"
+  },
+  "homepage": "https://github.com/artful-addict/coming-soon-page#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
